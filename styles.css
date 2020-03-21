@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap');
 body{
     font-family: "Montserrat";
 }
+
 h1{
     font-weight: 900;
     font-size: 3.5rem;
@@ -9,7 +10,7 @@ h1{
     color: white;
 }
 
-.container-fluid{
+.c-fluid{
     padding: 3% 15%;
 }
 
@@ -19,7 +20,6 @@ h1{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
-    
 }
 
 .navbar{
@@ -39,3 +39,32 @@ h1{
 .download-button{
     margin: 5% 3% 5% 0;
 }
+
+/* Feature-Section */
+
+#features h3{
+   font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin: 3.5rem 0 1rem 0;
+}
+.col-lg-4{
+    text-align: center;
+    padding-right: 7rem;
+}
+.cf-fluid{
+    padding:7% 1% 10% 15%;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
