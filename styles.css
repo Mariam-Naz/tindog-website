@@ -14,7 +14,7 @@ h1{
     padding: 3% 15%;
 }
 
-.row{
+.row-title{
     padding-top: 6%;
 }
 .title-img{
@@ -56,7 +56,7 @@ h1{
     font-size: 4.5rem;
     margin: 3.5rem 0 1rem 0;
 }
-.col-lg-4{
+.col-feature{
     text-align: center;
     padding-right: 7rem;
 }
@@ -68,3 +68,48 @@ h1{
     color: #ff4c68;
 }
 
+/* Testimonial-Section */
+#testimonials{
+   
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+/* Press-Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
