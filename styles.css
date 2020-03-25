@@ -11,16 +11,20 @@ h1{
 }
 
 .c-fluid{
-    padding: 3% 15%;
+    padding: 3% 11% 6%;
 }
 
 .row-title{
     padding-top: 6%;
 }
+    
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
+
 
 .navbar{
     padding:0;
@@ -42,6 +46,13 @@ h1{
 
 /* Feature-Section */
 
+#features{
+    background-color: #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+  
+}
 #features h3{
    font-weight: 700;
     font-size: 1.5rem;
